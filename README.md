@@ -33,3 +33,8 @@ jspm install
 ```bash
 ionic serve
 ```
+
+Bugs/ToDos
+--------------------
+1. The ionicons fonts are not loading for some reason.
+2. Clean up `package.json`.
