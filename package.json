@@ -4,10 +4,11 @@
   "description": "Fitness: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
-    "gulp-sass": "^1.3.3",
     "gulp-concat": "^2.2.0",
     "gulp-minify-css": "^0.3.0",
-    "gulp-rename": "^1.2.0"
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.3.3",
+    "jspm": "^0.15.3"
   },
   "devDependencies": {
     "bower": "^1.3.3",
@@ -32,11 +33,6 @@
       "angular-sanitize": "github:angular/bower-angular-sanitize@^1.3.15",
       "angular-ui-router": "github:angular-ui/ui-router@^0.2.13",
       "css": "github:systemjs/plugin-css@^0.1.9",
-      "gulp": "jspm:gulp@^3.5.6",
-      "gulp-concat": "jspm:gulp-concat@^2.2.0",
-      "gulp-minify-css": "jspm:gulp-minify-css@^0.3.0",
-      "gulp-rename": "jspm:gulp-rename@^1.2.0",
-      "gulp-sass": "jspm:gulp-sass@^1.3.3",
       "ionic": "github:driftyco/ionic-bower@^0.9.26"
     },
     "devDependencies": {
