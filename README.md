@@ -12,7 +12,7 @@ Setup
 * Install the global dependencies
 
 ```bash
-npm install -g ionic cordova jspm
+npm install -g ionic cordova jspm gulp
 ```
 
 * Clone this repo and change into project directory
@@ -22,10 +22,11 @@ git clone git@github.com:akagr/ionic-jspm-kickstart.git
 cd ionic-jspm-kickstart
 ```
 
-* Install local dependencies
+* Install local dependencies (including npm, jspm packages and cordova plugins)
 
 ```bash
-jspm install
+npm install
+gulp install
 ```
 
 * Start the app
