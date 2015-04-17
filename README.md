@@ -35,7 +35,13 @@ gulp install
 ionic serve
 ```
 
+Notes:
+--------------------
+* Obviously, using `ionic add <bower_package>` is discouraged even though the
+command will remain available (can't change the ionic cli).
+
+
 Bugs/ToDos
 --------------------
-1. The ionicons fonts are not loading for some reason.
-2. Clean up `package.json`.
+* The ionicons fonts are not loading for some reason.
+* Clean up `package.json`.
