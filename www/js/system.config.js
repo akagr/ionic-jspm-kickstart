@@ -1,5 +1,4 @@
 System.config({
-  "baseURL": "/",
   "paths": {
     "*": "*.js",
     "github:*": "lib/github/*.js",
