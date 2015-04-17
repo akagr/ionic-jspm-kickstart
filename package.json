@@ -37,8 +37,11 @@
       "ionic": "github:driftyco/ionic-bower@^0.9.26"
     },
     "devDependencies": {
-      "traceur": "github:jmcriffey/bower-traceur@0.0.87",
-      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87"
+      "babel": "npm:babel-core@^5.1.10",
+      "babel-runtime": "npm:babel-runtime@^5.1.10"
+    },
+    "buildConfig": {
+      "transpileES6": true
     }
   }
 }

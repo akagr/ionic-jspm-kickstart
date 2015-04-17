@@ -1,4 +1,5 @@
 System.config({
+  "transpiler": "babel",
   "paths": {
     "*": "*.js",
     "github:*": "lib/github/*.js",
@@ -12,10 +13,10 @@ System.config({
     "angular-animate": "github:angular/bower-angular-animate@1.3.15",
     "angular-sanitize": "github:angular/bower-angular-sanitize@1.3.15",
     "angular-ui-router": "github:angular-ui/ui-router@0.2.13",
+    "babel": "npm:babel-core@5.1.10",
+    "babel-runtime": "npm:babel-runtime@5.1.10",
     "css": "github:systemjs/plugin-css@0.1.9",
     "ionic": "github:driftyco/ionic-bower@0.9.26",
-    "traceur": "github:jmcriffey/bower-traceur@0.0.87",
-    "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.87",
     "github:angular-ui/ui-router@0.2.13": {
       "angular": "github:angular/bower-angular@1.3.15"
     },

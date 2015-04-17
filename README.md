@@ -3,7 +3,7 @@ Ionic bootstrap with JSPM
 
 This is a simple boilerplate app with bower swapped out in favor of jspm. This
 provides much powerful SystemJS async module loading and all ES6 goodness with
-traceur support.
+traceur/babel support.
 
 
 Setup
